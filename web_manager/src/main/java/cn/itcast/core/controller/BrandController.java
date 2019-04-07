@@ -112,4 +112,8 @@ public class BrandController {
         List<Map> list = brandService.selectOptionList();
         return list;
     }
+
+    public static void main(String[] args) {
+        System.out.println(111);
+    }
 }
